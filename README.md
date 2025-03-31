@@ -56,7 +56,7 @@ metanotes/
 
 ## 🌐 Live Demo
 
-> Coming soon... (or link your GitHub Pages + Render deployment here)
+> (https://benhli40.github.io/metaNotes/)
 
 ---
 
