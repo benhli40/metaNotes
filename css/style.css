@@ -1,0 +1,53 @@
+/* -------------------------------
+    Reset & Base Typography
+---------------------------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* -------------------------------
+    App Layout
+---------------------------------- */
+#app {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+/* -------------------------------
+    Headings & Text
+---------------------------------- */
+h1, h2, h3 {
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.subtext {
+  color: var(--muted);
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
